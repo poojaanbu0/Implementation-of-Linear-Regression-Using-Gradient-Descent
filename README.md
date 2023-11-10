@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Upload the file to your compiler.
-2. Type the required program.
-3. Print the program.
-4. End the program.
+1.Start the program.
+2.import numpy as np.
+3.Give the header to the data.
+4.Find the profit of population.
+5.Plot the required graph for both for Gradient Descent Graph and Prediction Graph.
+6.End the program.
 
 ## Program:
 ```
@@ -19,7 +21,9 @@ To write a program to predict the profit of a city using the linear regression m
 Program to implement the linear regression using gradient descent.
 Developed by: POOJA A
 RegisterNumber: 212222240072
-
+*/
+```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -88,12 +92,24 @@ print("For population = 70,000 , we predict a profit of $"+str(round(predict2,0)
 ```
 
 ## Output:
-![EX3](https://user-images.githubusercontent.com/119390329/229600300-f7b5145f-c089-4b17-b9d4-b99cab9d68c8.png)
-![E3](https://user-images.githubusercontent.com/119390329/229600538-73a30c56-9f7b-4a83-88ac-f6df933b32bb.png)
-![3E](https://user-images.githubusercontent.com/119390329/229600637-05c618d0-5899-44d2-bdab-ae83507057cc.png)
-![3](https://user-images.githubusercontent.com/119390329/229600869-368664f3-f1c8-4e88-8794-bdf9dd1bffb4.png)
-![EP3](https://user-images.githubusercontent.com/119390329/229600921-055d17a3-7c5d-4551-8f4d-7792ca47c5c3.png)
-![X3](https://user-images.githubusercontent.com/119390329/229601096-0ba6b174-d79d-4641-9a7e-f09b91d36590.png)
+## COMPUTE COST VALUE
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/9f8dd0d9-71cb-438d-b172-8426560068e7)
+
+## H(X) VALUE
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/7825cab3-87cc-4e17-8607-b850d603fb6c)
+
+## COST FUNCTION USING GRADIENT DESCENT GRAPH
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/3717567e-e326-4f5e-8a4c-7c540b85804b)
+
+## PROFIT PREDICTION GRAPH
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/cbe25494-bf70-4d66-b988-c43bc15a64ba)
+
+## PROFIT FOR THE POPULATION 35,000
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/532c211c-1f2a-444a-9388-2bead7339c02)
+
+## PROFIT FOR THE POPULATION 70,000
+![image](https://github.com/poojaanbu0/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119390329/68308261-7103-449c-9b74-894a00169c44)
+
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
